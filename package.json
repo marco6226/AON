@@ -8,12 +8,10 @@
     "start": "node index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://kesslab@bitbucket.org/kesslab/sistema-de-caracterizaciones-prodepaz.git"
+    "type": "git"
   },
-  "author": "Dataurbe",
+  "author": "Sigess",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/kesslab/sistema-de-caracterizaciones-prodepaz#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
