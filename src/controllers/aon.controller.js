@@ -11,7 +11,7 @@ aonController.post("/token", async function (req, res, onError) {
         password
     } = req.query;
     try {
-        const response = await axios.post('https://qa.segurosaon.com.co/API/login', {
+        const response = await axios.post('https://tools.segurosaon.com.co/API/login', {
             email,
             password
         })
@@ -43,7 +43,7 @@ aonController.get("/registers", async function (req, res, onError) {
                 'Authorization': token
             }
         }
-        const response = await axios.get('https://www.qa.segurosaon.com.co/API/api/v1/registros', config)
+        const response = await axios.get('https://tools.segurosaon.com.co/API/api/v1/registros', config)
         res.status(200).json(response.data);
 
     } catch (error) {
